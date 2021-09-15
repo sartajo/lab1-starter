@@ -54,13 +54,13 @@ int Q3(float Q3_input){
 	
 	/* Question 3: 
 	Write a program that takes a student's Q3_input as an input, which is a floating point value,
-	and prints:
+	and returns:
 	4 if the Q3_input is in the range 90-100,
 	3 if it is in the range 80-89, 
 	2 if it is in the range 70-79,
 	1 if it is in the range 60-69 and
 	0 if the Q3_input is between 0 and 59.
-	If the Q3_input is not in the range 0-100, the program should print a message to signal an invalid input.
+	If the Q3_input is not in the range 0-100, the program shouldreturn -1
 */	
 	// this is the varaible that holds the out value to return
 	float GPA;
@@ -98,14 +98,11 @@ int Q5(){
 	
 	/* Do your coding below
 		Use a triple-nested for loop that simply tries all possibilities
-		print each triple on a separate line, 
 		and update the total number of triples if needed
 	*/
 	
 
 
-	//this is the format that you MUST print the found tribles..uncomment this line and fill in the missings to get it working correctly
-	//printf("A trible found: side1=%d, side2=%d, side3=%d\n", ...)
 	
 	//finally you should return the total number of tribles.
 	return totNumTribles;
